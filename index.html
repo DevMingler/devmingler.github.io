@@ -1,135 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>DevMingler</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevMingler | A cozy build club for developers</title>
+  <meta name="description" content="DevMingler is a cozy build club for developers, tinkerers, learners, and AI-tool explorers. Bring a repo, a question, a bug, or a tiny win.">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
 
-<!-- Project info -->
-<meta property="og:title" content="DevMingler" />
-<meta property="og:description" content="DevMingler: Where developers unite, code takes flight, and friendships ignite! Join us today to build, mentor, and mingle your way to tech greatness."/>
-<meta property="og:url" content="https://devmingler.github.io/" />
-<meta property="og:image" content="https://raw.githubusercontent.com/DevMingler/devmingler.github.io/main/images/devmingler-logo.png" />
-<meta property="og:image:type" content="image/png">
-<meta property="og:site_name" content="DevMingler"/>
-
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.bgimg {background-image: url("images/devmingler-bliss-background.jpeg")}
-.bgimg2 {background-image: url("images/devmingler-discord.png")}
-.primary-color {background-color: #60f08a}
-.secondary-color {background-color: #60c6f0}
-
-</style>
+  <meta property="og:title" content="DevMingler">
+  <meta property="og:description" content="A cozy build club for developers who want to build, learn, experiment, and share early.">
+  <meta property="og:url" content="https://devmingler.github.io/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/DevMingler/devmingler.github.io/main/images/devmingler-banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:site_name" content="DevMingler">
 </head>
 <body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="DevMingler home">
+      <img src="images/devmingler-logo.png" alt="" width="40" height="40">
+      <span>DevMingler</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
 
-<!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg" id="home">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo" style="background-color: rgba(192,192,192,0.4);"><b>DevMingler</b></h1>
-    <h2 style="background-color: rgba(192,192,192,0.4);"><b>Where developers unite, code takes flight, and friendships ignite!</b></h2>
-    <h2 style="background-color: rgba(192,192,192,0.4);"><b>Join us today to build, mentor, and mingle your way to tech greatness.</b></h2>
-    Image by <a href="https://pixabay.com/users/jplenio-7645255/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5236879" target="_blank">Joe</a> 
-    from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5236879" target="_blank">Pixabay</a>
-  </div>
-</header>
-
-<!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="https://github.com/DevMingler" target="_blank" style="width:25%" class="w3-bar-item w3-button">GitHub</a>
-    <a href="https://discord.gg/wujrntWr5w" target="_blank" style="width:25%" class="w3-bar-item w3-button">Discord</a>
-    <a href="https://www.youtube.com/@DevMingler/playlists" target="_blank" style="width:25%" class="w3-bar-item w3-button">YouTube</a>
-    <a href="https://youtu.be/sN_y--sAuUo?si=mHIj9FJP-kknAYx3" target="_blank" style="width:25%" class="w3-bar-item w3-button">Getting Started</a>
-  </div>
-</div>
-
-<!-- DevMingler: Why we exist -->
-<div class="w3-container w3-padding-64 primary-color" id="us">
-  <div class="w3-content w3-padding">
-    <h1><b>DevMingler's Purpose</b></h1>
-    <p class="w3-large">DevMingler is a community that is open to all developers - from those in school all the way to CTOs.</p>
-    <p>No matter your level and experience, everyone is welcome to join. </p>
-    <p>Being a diverse community will allow us to learn quite a bit about tech and working in the tech industry.</p>
-    <p>In DevMingler we build software in all the tech stacks that our members enjoy. 
-      This creates opportunities for us to deepen our knowledge in our tech stacks but also, 
-      it lets us get exposed to other tech stacks that we might take an interest in. </p>
-    <img class="w3-round" src="images/devmingler-why-we-exist.png" style="width:100%;margin:32px 0" >
-    </p><br>
-  </div>
-</div>
-
-<!-- DevMingler: Areas within the community -->
-<div class="w3-container w3-padding-64 secondary-color" id="us">
-  <div class="w3-content">
-    <img class="w3-round" src="images/devmingler-areas-within.png" style="width:100%;margin:32px 0" >
-    <h1><b>Getting Started</b></h1>
-    <p class="w3-large">Watch these videos if you'd like to learn more about DevMingler.</p>
-      <div class="w3-row">
-        <div class="w3-half w3-center w3-margin-bottom">
-          <iframe maxwidth="420" height="345" src="https://youtube.com/embed/sN_y--sAuUo"></iframe>
-        </div>
-        <div class="w3-half w3-center w3-margin-bottom">
-          <iframe maxwidth="420" height="345" src="https://youtube.com/embed/jffoe0_NXFY"></iframe>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="images/devmingler-banner.png" alt="DevMingler blue banner with code brackets, clouds, stars, and connected developer icons.">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Revived in 2026</p>
+        <h1 id="hero-title">DevMingler</h1>
+        <p class="tagline">A cozy build club for developers</p>
+        <p class="hero-copy">
+          A small community for developers, tinkerers, learners, and AI-tool explorers
+          who want to build gently, share early, and keep each other moving.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button button-primary" href="https://discord.gg/wujrntWr5w" target="_blank" rel="noopener">Join the Discord</a>
+          <a class="button button-secondary" href="#projects">View Projects</a>
         </div>
       </div>
-  </div>
-</div>
+    </section>
 
-<!-- GitHub information -->
-<div class="w3-container w3-padding-64 primary-color w3-center" id="github">
-  <div class="w3-content">
-    <h1><b>DevMingler's GitHub profile</b></h1>
-    <img class="w3-round-large" src="images/devmingler-github.png" style="width:100%;margin:64px 0">
-    <h1>COME JOIN US ON GITHUB!</h1>
-    <p class="w3-large">Have an idea that you want to build out?</p>
-    <p class="w3-large">Feel like contributing to projects?</p>
-    <p class="w3-large">Either way, come on over to our GitHub to start commiting!</p>
-    <p class="w3-xlarge">
-      <button class="w3-button w3-round secondary-color w3-hover-opacity-off" style="padding:8px 60px">
-        <a href="https://github.com/DevMingler" target="_blank" class="w3-bar-item w3-button">GitHub</a></button>
-    </p>
-  </div>
-</div>
+    <section class="intro-band" aria-label="Community status">
+      <div class="container status-grid">
+        <div>
+          <span class="status-number">41</span>
+          <span class="status-label">Discord members on 04 July 2026</span>
+        </div>
+        <div>
+          <span class="status-number">9</span>
+          <span class="status-label">members on 11 June 2026</span>
+        </div>
+        <div>
+          <span class="status-number">&lt;/&gt;</span>
+          <span class="status-label">repos, questions, bugs, experiments, and tiny wins</span>
+        </div>
+      </div>
+    </section>
 
-<!-- Discord information -->
-<div class="w3-container w3-padding-64 secondary-color w3-center" id="discord">
-  <div class="w3-content">
-    <h1><b>DevMingler's Discord Server</b></h1>
-    <img class="w3-round-large" src="images/devmingler-discord.png" style="width:100%;margin:64px 0">
-    <h1>COME JOIN US ON DISCORD!</h1>
-    <p class="w3-large">Mingle away on Discord, meet other like-minded devs and find a project that excites you!</p>
-    <p class="w3-xlarge">
-      <button class="w3-button w3-round primary-color w3-hover-opacity-off" style="padding:8px 60px">
-        <a href="https://discord.gg/wujrntWr5w" target="_blank" class="w3-bar-item w3-button">Discord</a></button>
-    </p>
-  </div>
-</div>
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">What is DevMingler?</p>
+          <h2 id="about-title">Developers unite, learn together, build together, and support each other.</h2>
+        </div>
+        <div class="lead-card">
+          <p>
+            DevMingler is a small developer community for people who want to build,
+            learn, experiment, and stay gently in motion. Bring a repo, a half-built
+            idea, a question, a tiny win, or a suspicious bug.
+          </p>
+          <p>
+            We are not here to be perfect. We are here to keep building.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<!-- YouTube information -->
-<div class="w3-container w3-padding-64 primary-color w3-center" id="youtube">
-  <div class="w3-content">
-    <h1><b>DevMingler's YouTube profile</b></h1>
-    <img class="w3-round-large" src="images/devmingler-youtube.png" style="width:100%;margin:64px 0">
-    <h1>COME JOIN US ON YOUTUBE!</h1>
-    <p class="w3-large">Because great code deserves a great soundtrack. Come see what playlists tickle your musical ears!</p>
-    <p class="w3-xlarge">
-      <button class="w3-button w3-round secondary-color w3-hover-opacity-off" style="padding:8px 60px">
-        <a href="https://www.youtube.com/@DevMingler/playlists" target="_blank" class="w3-bar-item w3-button">YouTube</a></button>
-    </p>
-  </div>
-</div>
+    <section class="section soft-section" aria-labelledby="what-we-do-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">What we do</p>
+          <h2 id="what-we-do-title">Small, practical ways to keep momentum warm.</h2>
+        </div>
+        <div class="card-grid five-up">
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">{ }</span>
+            <h3>Build small open-source projects</h3>
+            <p>Keep ideas light enough to start and useful enough to share.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">?</span>
+            <h3>Share repos, bugs, and questions</h3>
+            <p>Post the thing that is stuck, strange, or newly working.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">AI</span>
+            <h3>Experiment with AI-assisted development</h3>
+            <p>Try new workflows, compare notes, and keep the useful parts.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">*</span>
+            <h3>Celebrate tiny wins and progress</h3>
+            <p>A fixed typo, a merged PR, or a better README all counts.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">+</span>
+            <h3>Help each other keep going</h3>
+            <p>Gentle accountability, project channels, and builders energy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section feature-section" id="projects" aria-labelledby="footprints-title">
+      <div class="container feature-card">
+        <div>
+          <p class="section-kicker">Featured project</p>
+          <h2 id="footprints-title">Footprints</h2>
+          <p class="feature-copy">
+            Footprints is an open-source experiment for exploring ChatGPT export data
+            and turning conversation history into useful reflection. It helps people
+            notice what they have been building, asking, learning, repeating, and becoming.
+          </p>
+        </div>
+        <div class="project-links" aria-label="Footprints repositories">
+          <a href="https://github.com/DevMingler/footprints-codex-skill" target="_blank" rel="noopener">
+            <span>footprints-codex-skill</span>
+            <small>Codex skill experiment</small>
+          </a>
+          <a href="https://github.com/DevMingler/footprints-custom-gpt" target="_blank" rel="noopener">
+            <span>footprints-custom-gpt</span>
+            <small>Custom GPT companion</small>
+          </a>
+          <a href="https://github.com/DevMingler/footprints-bts" target="_blank" rel="noopener">
+            <span>footprints-bts</span>
+            <small>Behind-the-scenes notes</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="experiments-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Community experiments</p>
+          <h2 id="experiments-title">Small repos, playful tools, and practical scratches.</h2>
+        </div>
+        <div class="experiment-grid">
+          <a class="experiment-card" href="https://github.com/DevMingler/logo-matcher-game" target="_blank" rel="noopener">
+            <h3>logo-matcher-game</h3>
+            <p>A quick visual matching game for developer logos.</p>
+          </a>
+          <a class="experiment-card" href="https://github.com/DevMingler/logo-pairs-game" target="_blank" rel="noopener">
+            <h3>logo-pairs-game</h3>
+            <p>A memory-style logo pairs game.</p>
+          </a>
+          <a class="experiment-card" href="https://github.com/DevMingler/codewars-leaderboard" target="_blank" rel="noopener">
+            <h3>codewars-leaderboard</h3>
+            <p>A lightweight way to track friendly Codewars progress.</p>
+          </a>
+          <a class="experiment-card" href="https://github.com/DevMingler/rainbow-finder" target="_blank" rel="noopener">
+            <h3>rainbow-finder</h3>
+            <p>A colorful little experiment for finding patterns.</p>
+          </a>
+          <a class="experiment-card" href="https://github.com/DevMingler/youtube-shorts-saver" target="_blank" rel="noopener">
+            <h3>youtube-shorts-saver</h3>
+            <p>A utility experiment for saving YouTube Shorts.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section join-section" id="join" aria-labelledby="join-title">
+      <div class="container join-card">
+        <div>
+          <p class="section-kicker">Join in</p>
+          <h2 id="join-title">No grand entrance required.</h2>
+          <p>
+            Lurking is allowed. Gentle chaos is encouraged. Come share what you
+            are building, or ask the tiny question.
+          </p>
+        </div>
+        <div class="join-actions" aria-label="Community links">
+          <a class="button button-primary" href="https://discord.gg/wujrntWr5w" target="_blank" rel="noopener">Join the Discord</a>
+          <a class="button button-secondary" href="https://github.com/DevMingler" target="_blank" rel="noopener">GitHub organization</a>
+          <a class="text-link" href="mailto:dev.mingler@gmail.com">dev.mingler@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 DevMingler. Build gently. Share early.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
 </body>
 </html>
